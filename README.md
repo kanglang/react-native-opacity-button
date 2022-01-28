@@ -2,7 +2,7 @@
  * @Author: kanglang
  * @Date: 2022-01-19 15:08:26
  * @LastEditors: kanglang
- * @LastEditTime: 2022-01-28 16:58:47
+ * @LastEditTime: 2022-01-28 17:10:45
  * @Description: 按钮 
 -->
 
@@ -14,11 +14,6 @@ import OpacityButton from 'react-native-opacity-button';
 
 // TODO: What to do with the module?
 <OpacityButton />
-text = '按钮',
-    onPress,
-    style,
-    txtStyle
-;
 ```
 属性介绍
 
