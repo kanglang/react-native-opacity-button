@@ -2,7 +2,7 @@
  * @Author: kanglang
  * @Date: 2021-06-05 09:51:24
  * @LastEditors: kanglang
- * @LastEditTime: 2022-01-28 16:51:44
+ * @LastEditTime: 2022-01-28 17:24:50
  * @Description: 按钮
  */
 import React, { Component } from 'react';
@@ -44,11 +44,13 @@ export default OpacityButton;
 const styles = StyleSheet.create({
     btnBox: {
         backgroundColor: '#ffffff',
-        paddingHorizontal: px2dp(16),
-        paddingVertical: px2dp(8),
         borderRadius: px2dp(8),
         marginRight: px2dp(16),
-        marginBottom: px2dp(16)
+        marginBottom: px2dp(16),
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingVertical: px2dp(20),
+        paddingHorizontal:px2dp(32)
     },
     btnTip: {
         color: '#000000',
